@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #efe2bf;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#top-menu {
+    width: 100%;
+    height: 80px;
+    
+    position: fixed;
+    background-color: #fc801a;
+}
+
+
+
+
+#top-menu ul{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff;
+}
+
+#top-menu ul li{
+    float: right;
+    display: inline;
+    margin-top: 0.7%;
+}
+
+#top-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+#top-menu ul li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#top-menu ul li a:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Altura da linha */
+    background-color: #fff; /* Cor da linha */
+}
+
+#infomarcoes-gerais img {
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#logos-inferiores img {
+    width: 150px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px; 
+}
+
+.col {
+    padding: 10px;
+    justify-content: center;
+}
+
+#infomarcoes-gerais h3 {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.lojas-informacoes img{
+    display:inline-flex;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#localizacao-h3 {
+    text-align: center;
+}
+
+#lojas{
+    margin-left: 0;
+    text-align: center;
+}
+
+
+#lojas img {
+    width: 70px;
+}
+
+#redes-sociais img {
+    width: 35px;
+}
+
+#produtos ul {
+    list-style-type: none;
+}
+
+#produtos li {
+    padding-bottom: 20px;
+}
+
+#produtos a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+#produtos ul li a:hover{
+    background-color: rgba(247,115,9, 0.5);
+    padding: 15px;
+    color: #fff;
+    text-decoration: solid;
+}
